@@ -1,0 +1,133 @@
+.portfolio-heading {
+    margin-left: 0 auto;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.section-title {
+    margin-left: 0;
+}
+
+.portfolio-section {
+    width: 80%;
+    /* background-color: powderblue; */
+    margin-left: 20%;
+    height: 150vh;
+}
+.portfolio-heading h2 {
+    color: var(--text-black-900);
+    font-weight: 500;
+}
+.portfolio-row {
+    width: auto;
+    height: auto;
+}
+.portfolio-first-row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10%;
+    width: 100%;
+    height: 45vh;
+    /* background-color: aqua; */
+}
+.portfolio-second-row {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+    margin-bottom: auto;
+    width: 100%;
+    height: 45vh;
+    /* background-color: blue; */
+}
+
+.portfolio-img {
+    width: 25%;
+    height: 25%;
+}
+.img1 {
+    background-image: url(../../assets/course-5.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+.img2 {
+    background-image: url(../../assets/3.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+.img3 {
+    background-image: url(../../assets/tree\ background\ image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+.img4 {
+    background-image: url(../../assets/en.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+.img5 {
+    background-image: url(../../assets/period_tracker_img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+.img6 {
+    background-image: url(../../assets/phone2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+.portfolio-modal {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), var(--skin-color));
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    bottom: 300px;
+    flex-direction: row;
+    padding: 40px 0;
+    text-align: center;
+    align-items: center;
+    font-size: 14px;
+    display: none;
+    /* transform: scale(1.2); */
+}
+.portfolio-item-inner:hover .portfolio-modal {
+    display: block;
+    /* transition: ease-in-out; */
+}
+.portfolio-title {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.portfolio-sub-text {
+    font-size: 16px;
+    color: #fff;
+}
+.portfolio-item-inner {
+    height: 20%;
+}
+.row3 {
+    padding-top: 100px;
+}
+.mylastproject {
+    margin-left: 0 auto;
+}
